@@ -1,4 +1,13 @@
-[Serializable]
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TTFCreator
+{
+    [Serializable]
     public class Contour
     {
       private List<GPoint> points;
@@ -207,3 +216,4 @@
             return yMax;
         }
     }
+}
